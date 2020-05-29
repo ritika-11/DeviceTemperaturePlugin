@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'dart:async';
-import 'package:devicetemperature/device_temperature.dart';
+import 'package:devicetemperature/devicetemperature.dart';
 
 void main() {
   runApp(MyApp());

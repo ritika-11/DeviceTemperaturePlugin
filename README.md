@@ -8,11 +8,11 @@
 
 
 ## Usage
-- Add [devicetemperature](https://pub.dartlang.org/packages/device_temperature#-installing-tab-) as a dependency in your pubspec.yaml file.
+- Add [devicetemperature](https://pub.dartlang.org/packages/devicetemperature#-installing-tab-) as a dependency in your pubspec.yaml file.
 
 
 ```dart
-import 'package:devicetemperature/device_temperature.dart';
+import 'package:devicetemperature/devicetemperature.dart';
 
 double temperature = await Devicetemperature.DeviceTemperature;
 ```
