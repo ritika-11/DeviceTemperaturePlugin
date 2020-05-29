@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/devicetemperature.iml" filepath="$PROJECT_DIR$/devicetemperature.iml" />
-      <module fileurl="file://$PROJECT_DIR$/android/devicetemperature_android.iml" filepath="$PROJECT_DIR$/android/devicetemperature_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/device_temperature.iml" filepath="$PROJECT_DIR$/device_temperature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/device_temperature_android.iml" filepath="$PROJECT_DIR$/android/device_temperature_android.iml" />
       <module fileurl="file://$PROJECT_DIR$/example/android/devicetemperature_example_android.iml" filepath="$PROJECT_DIR$/example/android/devicetemperature_example_android.iml" />
     </modules>
   </component>

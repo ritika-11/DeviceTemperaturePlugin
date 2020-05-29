@@ -1,14 +1,29 @@
-# devicetemperature
+# device_temperature
 
-Flutter plugin to get the temperature of the device
+[device_temperature](https://github.com/ritika-11/DeviceTemperaturePlugin) is a flutter plugin that can provide you the current temperature of an android device.
 
-## Getting Started
+```diff
+- Note: This plugin can work only in Android as of now!
+```
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## Usage
+- Add [devicetemperature](https://pub.dartlang.org/packages/device_temperature#-installing-tab-) as a dependency in your pubspec.yaml file.
+
+
+```dart
+import 'package:devicetemperature/device_temperature.dart';
+
+double temperature = await Devicetemperature.DeviceTemperature;
+```
+
+## Available Methods
+- getDeviceTemperature
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update the tests as appropriate.
+
+## License
+[MIT](https://github.com/ritika-11/DeviceTemperaturePlugin/blob/master/LICENSE)
